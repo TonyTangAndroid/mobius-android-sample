@@ -21,6 +21,9 @@ plugins {
     id 'com.github.hierynomus.license' version '0.14.0'
 }
 
+apply from: "${rootDir}/config/google_java_format.gradle"
+
+
 allprojects {
     repositories {
         google()
