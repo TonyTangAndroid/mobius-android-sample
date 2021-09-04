@@ -62,7 +62,6 @@ android {
             events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
         }
     }
-    buildToolsVersion '27.0.3'
 }
 android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
 /*
