@@ -19,8 +19,6 @@ package com.example.android.architecture.blueprints.todoapp.taskdetail.view;
 import static com.example.android.architecture.blueprints.todoapp.taskdetail.domain.TaskDetailEvent.activateTaskRequested;
 import static com.example.android.architecture.blueprints.todoapp.taskdetail.domain.TaskDetailEvent.completeTaskRequested;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +27,8 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import com.example.android.architecture.blueprints.todoapp.R;
 import com.example.android.architecture.blueprints.todoapp.taskdetail.domain.TaskDetailEvent;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.spotify.mobius.Connectable;
 import com.spotify.mobius.Connection;
 import com.spotify.mobius.functions.Consumer;

@@ -23,12 +23,11 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 import android.app.Activity;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import com.example.android.architecture.blueprints.todoapp.R;
 import com.example.android.architecture.blueprints.todoapp.addedittask.domain.AddEditTaskEvent;
 import com.example.android.architecture.blueprints.todoapp.addedittask.domain.AddEditTaskMode;
@@ -38,6 +37,7 @@ import com.example.android.architecture.blueprints.todoapp.addedittask.view.AddE
 import com.example.android.architecture.blueprints.todoapp.data.Task;
 import com.example.android.architecture.blueprints.todoapp.data.TaskBundlePacker;
 import com.example.android.architecture.blueprints.todoapp.data.TaskDetails;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.spotify.mobius.MobiusLoop;
 
 /** Main UI for the add task screen. Users can enter a task title and description. */

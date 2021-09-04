@@ -28,16 +28,15 @@ import static com.spotify.mobius.extras.Connectables.contramap;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import androidx.fragment.app.Fragment;
-import androidx.appcompat.widget.PopupMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.PopupMenu;
+import androidx.fragment.app.Fragment;
 import com.example.android.architecture.blueprints.todoapp.R;
 import com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskActivity;
 import com.example.android.architecture.blueprints.todoapp.data.Task;
@@ -48,6 +47,7 @@ import com.example.android.architecture.blueprints.todoapp.tasks.domain.TasksLis
 import com.example.android.architecture.blueprints.todoapp.tasks.view.DeferredEventSource;
 import com.example.android.architecture.blueprints.todoapp.tasks.view.TasksListViewDataMapper;
 import com.example.android.architecture.blueprints.todoapp.tasks.view.TasksViews;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.spotify.mobius.MobiusLoop;
 import io.reactivex.subjects.PublishSubject;
 

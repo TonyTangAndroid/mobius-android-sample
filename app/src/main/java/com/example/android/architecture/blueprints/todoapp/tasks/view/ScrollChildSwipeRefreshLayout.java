@@ -16,10 +16,10 @@
 package com.example.android.architecture.blueprints.todoapp.tasks.view;
 
 import android.content.Context;
-import androidx.core.view.ViewCompat;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.util.AttributeSet;
 import android.view.View;
+import androidx.core.view.ViewCompat;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 /**
  * Extends {@link SwipeRefreshLayout} to support non-direct descendant scrolling views.
