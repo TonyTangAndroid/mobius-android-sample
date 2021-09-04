@@ -18,8 +18,6 @@ package com.example.android.architecture.blueprints.todoapp.addedittask.view;
 
 import static com.example.android.architecture.blueprints.todoapp.addedittask.domain.AddEditTaskEvent.taskDefinitionCompleted;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +25,8 @@ import android.widget.TextView;
 import com.example.android.architecture.blueprints.todoapp.R;
 import com.example.android.architecture.blueprints.todoapp.addedittask.domain.AddEditTaskEvent;
 import com.example.android.architecture.blueprints.todoapp.addedittask.domain.AddEditTaskModel;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.spotify.mobius.Connectable;
 import com.spotify.mobius.Connection;
 import com.spotify.mobius.functions.Consumer;

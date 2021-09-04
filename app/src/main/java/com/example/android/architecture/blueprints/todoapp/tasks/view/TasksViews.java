@@ -22,9 +22,6 @@ import static com.example.android.architecture.blueprints.todoapp.tasks.domain.T
 import static com.example.android.architecture.blueprints.todoapp.tasks.domain.TasksListEvent.taskMarkedActive;
 import static com.example.android.architecture.blueprints.todoapp.tasks.domain.TasksListEvent.taskMarkedComplete;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.core.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,9 +29,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import androidx.core.content.ContextCompat;
 import com.example.android.architecture.blueprints.todoapp.R;
 import com.example.android.architecture.blueprints.todoapp.tasks.domain.TasksListEvent;
 import com.example.android.architecture.blueprints.todoapp.tasks.view.TasksListViewData.TaskViewData;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.common.collect.ImmutableList;
 import com.spotify.mobius.Connectable;
 import com.spotify.mobius.Connection;
